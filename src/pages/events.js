@@ -33,7 +33,7 @@ export default class EventsPage extends React.Component {
                     {post.frontmatter.description}
                     <br />
                     <br />
-                    <Link className="button is-small" to={`events/${post.fields.slug}`}>
+                    <Link className="button is-small" to={post.fields.slug}>
                       Keep Reading →
                     </Link>
                   </p>
@@ -57,7 +57,7 @@ EventsPage.propTypes = {
 export const pageQuery = graphql`
   query EventsQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "events" } }}
+      filter: { frontmatter: { templateKey: { eq: "event" } }}
     ) {
       edges {
         node {
