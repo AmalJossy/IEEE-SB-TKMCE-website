@@ -1,12 +1,12 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kalidi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+// IEEE brand color: #FD461E
+$IEEE-blue: #4776E6
+$IEEE-blue-invert: #fff
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $IEEE-blue
+$primary-invert: $IEEE-blue-invert
 $body-color: #333
 
 .navbar .navbar-menu
@@ -22,6 +22,21 @@ $body-color: #333
   padding: 2em 4em
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2)
   max-width: 500px
+
+.story__button
+  display: inline-flex
+  background-image: linear-gradient(147deg, #4776E6 0%, #8E54E9 74%)
+  padding: 10px 30px
+  border-radius: 50px
+  color: #fff
+  box-shadow: 0px 14px 80px rgba(35, 102, 209, 0.4)
+  text-decoration: none
+  font-weight: 500
+  justify-content: center
+  text-align: center
+  letter-spacing: 1px
+  @media screen and (max-width: 576px) 
+    width: 100%
 
 .content .taglist
   list-style: none
