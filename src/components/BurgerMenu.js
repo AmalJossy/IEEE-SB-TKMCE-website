@@ -98,6 +98,9 @@ const BurgerMenu = class extends React.Component {
       <Link to="/execom">
         Execom
       </Link>
+      <Link to="/blog">
+        Stories
+      </Link>
     </Menu>
   // <nav className="navbar" role="navigation" aria-label="main-navigation">
   //   <div className="container">

@@ -15,8 +15,8 @@ export const EventCardTemplate = ({
 }) => {
     // const formattedStart=start.format('LL')
     // const formattedEnd=end.format('LL')
-    console.log(start)
-    console.log(typeof(start))
+    // console.log(start)
+    // console.log(typeof(start))
   return (
     <section className="section">
       {helmet || ''}
