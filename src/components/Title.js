@@ -20,7 +20,7 @@ export const Title = class extends React.Component {
                                 {/* <!-- CTA --> */}
                                 <p>
                                     <Link className="story__button is-fat is-bold" to="/membership">
-                                        Join
+                                        Join IEEE
                                     </Link>
                                 </p>
 
