@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import tkm from '../img/tkm.png'
 export const Title = class extends React.Component {
     render(){
@@ -18,9 +19,9 @@ export const Title = class extends React.Component {
                                 </h2>
                                 {/* <!-- CTA --> */}
                                 <p>
-                                    <a href="#start" className="story__button is-fat is-bold">
+                                    <Link className="story__button is-fat is-bold" to="/membership">
                                         Join
-                                    </a>
+                                    </Link>
                                 </p>
 
                             </div>

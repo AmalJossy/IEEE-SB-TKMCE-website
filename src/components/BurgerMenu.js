@@ -92,8 +92,8 @@ const BurgerMenu = class extends React.Component {
       <Link to="/about">
         About
       </Link>
-      <Link to="/events">
-        Events
+      <Link to="/membership">
+        Join IEEE
       </Link>
     </Menu>
   // <nav className="navbar" role="navigation" aria-label="main-navigation">
@@ -115,8 +115,8 @@ const BurgerMenu = class extends React.Component {
   //       <Link className="navbar-item" to="/about">
   //         About
   //       </Link>
-  //       <Link className="navbar-item" to="/events">
-  //         Events
+  //       <Link className="navbar-item" to="/membership">
+  //         Join IEEE
   //       </Link>
   //     </div>
   //     </div>
