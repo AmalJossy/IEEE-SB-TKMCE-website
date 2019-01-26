@@ -1,6 +1,6 @@
 ---
 templateKey: membership-page
-title: About
+title: Join IEE
 ---
 ### How to join?
 
