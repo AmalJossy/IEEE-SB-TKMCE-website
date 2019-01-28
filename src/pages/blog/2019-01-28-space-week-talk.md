@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Space Week talk
+title: Space Week Talk
 date: 2018-10-04T15:26:16.006Z
 description: >-
   As part of Space week, a talk was conducted by Dr. Pankaj Priyadarshi, Head of
