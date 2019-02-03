@@ -3,13 +3,18 @@
     position: fixed;
     width: 36px;
     height: 30px;
-    left: 36px;
+    right: 36px;
     top: 36px;
+    /*border: 10px solid white;
+    background-color: white;
+    border-radius: 18px;*/
   }
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    /* background: #5743df; */
+    background: linear-gradient(147deg, #5743df 0%, #4776E6 74%);
+    border-radius: 3px;
   }
   
   /* Color/shape of burger icon bars on hover*/

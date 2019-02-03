@@ -1,5 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import "~bulma"
 // Config vars
 // IEEE brand color: #FD461E
 $IEEE-blue: #4776E6
@@ -9,11 +9,17 @@ $primary: $IEEE-blue
 $primary-invert: $IEEE-blue-invert
 $body-color: #333
 
+header 
+  position: absolute
+  width: 100%
 .navbar 
-//  background-color: transparent  !important
+  position: relative
+  background-color: transparent
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow:none 
+.navbar-item 
+  padding: 2em 0
 
 .landing
   position: relative
@@ -49,9 +55,9 @@ $body-color: #333
 
 .story 
   border-radius: 20px
-  padding: 2em 4em
+  padding: 2em
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2)
-  max-width: 450px
+  max-width: 300px
 
 .story__button
   display: inline-flex
@@ -116,4 +122,4 @@ $body-color: #333
 .margin-top-0
   margin-top: 0 !important
 
-@import "~bulma"
+
