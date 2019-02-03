@@ -1,4 +1,7 @@
 import React from 'react'
+import facebookIcon from '../img/icons/facebook-box.svg';
+import twitterIcon from '../img/icons/twitter-box.svg';
+import instagramIcon from '../img/icons/instagram.svg';
 const Footer = class extends React.Component {
     render(){
         return(
@@ -31,13 +34,13 @@ const Footer = class extends React.Component {
                         <h3>Follow us</h3>
                         <div>
                             <a href="https://www.facebook.com/ieeesbtkmce" target="_blank" rel="noopener noreferrer">
-                                <span className="icon is-medium"><img src="img/icons/facebook-box.svg" alt="facebook" /></span>
+                                <span className="icon is-medium"><img src={facebookIcon} alt="facebook" /></span>
                             </a>
                             <a href="https://www.twitter.com/IEEEorg" target="_blank" rel="noopener noreferrer">
-                            <span className="icon is-medium"><img src="img/icons/twitter-box.svg" alt="twitter" /></span>
+                            <span className="icon is-medium"><img src={twitterIcon} alt="twitter" /></span>
                             </a>
                             <a href="https://www.instagram.com/ieeeorg" target="_blank" rel="noopener noreferrer">
-                            <span className="icon is-medium"><img src="img/icons/instagram.svg" alt="instagram" /></span>
+                            <span className="icon is-medium"><img src={instagramIcon} alt="instagram" /></span>
                             </a>
                         </div>
                     </div>
